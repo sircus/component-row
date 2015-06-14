@@ -1,0 +1,47 @@
+
+// Converted Variables
+
+$Grid-gutter: $g-gutter !default;
+$Grid-col-fontSize: $g-fontSize !default;
+
+// Custom Media Query Variables
+
+
+/*　sircus-components-grid
+======================================== */
+
+.Grid {
+  font-size: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+
+.Grid-col {
+  font-size: $Grid-col-fontSize;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 1px;
+  padding-right: $Grid-gutter;
+  padding-left: $Grid-gutter;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* .Grid--float */
+.Grid--float > .Grid-col {
+  float: left;
+}
+
+
+.Grid--center { text-align: center; }
+.Grid--right  { text-align: right; }
+.Grid--left   { text-align: left; }
+
+.Grid--top > .Grid-col     { vertical-align: top; }
+.Grid--middle > .Grid-col  { vertical-align: middle; }
+.Grid--bottom > .Grid-col  { vertical-align: bottom; }
