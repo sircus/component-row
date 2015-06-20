@@ -2,35 +2,33 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-components-grid.svg?style=flat)](https://www.npmjs.com/package/sircus-components-grid)
 
-> A Grid component Module of Sircus.
-
 ## Dependencies
-- [sircus-global-proprety](https://github.com/sircus/global-property)
+- [sircus-global-property](https://github.com/sircus/global-property)
 
 
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
-$ npm install sircus-components-grid sircus-global-proprety
+$ npm install sircus-components-grid sircus-global-property
 ```
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-components-grid";
-@import "sircus-global-proprety";
+@import "sircus-global-property";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-proprety/converted";
+```scss
+@import "node_modules/sircus-global-property/converted";
 @import "node_modules/sircus-components-grid/converted";
 ```
 
@@ -43,11 +41,36 @@ input.scss
   <div class="Grid-col t-width1of2"></div>
 </div>
 
-
-<div class="Grid Grid--float">
+<div class="Grid Grid--center">
   <div class="Grid-col t-width1of2"></div>
   <div class="Grid-col t-width1of2"></div>
 </div>
+
+<div class="Grid Grid--right">
+  <div class="Grid-col t-width1of2"></div>
+  <div class="Grid-col t-width1of2"></div>
+</div>
+
+<div class="Grid Grid--left">
+  <div class="Grid-col t-width1of2"></div>
+  <div class="Grid-col t-width1of2"></div>
+</div>
+
+<div class="Grid Grid--top">
+  <div class="Grid-col t-width1of2"></div>
+  <div class="Grid-col t-width1of2"></div>
+</div>
+
+<div class="Grid Grid--middle">
+  <div class="Grid-col t-width1of2"></div>
+  <div class="Grid-col t-width1of2"></div>
+</div>
+
+<div class="Grid Grid--bottom">
+  <div class="Grid-col t-width1of2"></div>
+  <div class="Grid-col t-width1of2"></div>
+</div>
+
 ```
 
 
