@@ -1,10 +1,10 @@
 {
   "name": "sircus-components-grid",
   "description": "Css Grid component module of Sircus.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalabe",
+    "scalable",
     "design",
     "css",
     "cssnext",
