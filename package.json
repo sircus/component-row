@@ -1,17 +1,17 @@
 {
   "name": "sircus-components-grid",
-  "description": "Css Grid component module of Sircus.",
+  "description": "Module For CSS inline-block Grid.",
   "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalable",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "modular",
+    "scalable",
     "rwd"
   ],
   "author": {
-    "name": "Yasuyuki Enomoto",
+    "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "license": "MIT",
