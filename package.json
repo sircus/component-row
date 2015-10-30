@@ -1,7 +1,7 @@
 {
   "name": "sircus-components-grid",
   "description": "Module For CSS inline-block Grid.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
     "css",
